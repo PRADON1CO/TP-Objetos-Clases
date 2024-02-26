@@ -6,11 +6,11 @@ const auto ={
 
     encender: function(){
         this.encendido = true;
-        document.write('El auto está encendido')
+        document.write('<p>El auto está encendido</p>')
     },
     apagar: function() {
         this.encendido =  false;
-        document.write('El auto se apagaó');
+        document.write('<p>El auto se apagaó</p>');
     }
 }
 
